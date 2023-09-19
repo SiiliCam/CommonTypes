@@ -9,6 +9,7 @@ namespace common_types {
         int height;
         int channels;
         std::vector<uint8_t> data;
+        int stride = 0;
     };
 
 };
