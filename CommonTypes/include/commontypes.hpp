@@ -12,4 +12,10 @@ namespace common_types {
         int stride = 0;
     };
 
+    struct Audio {
+        uint32_t sampleRate;
+        uint8_t channels;
+        uint64_t noSamples;
+        std::vector<float> data;
+    };
 };
