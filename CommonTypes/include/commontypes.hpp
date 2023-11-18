@@ -16,7 +16,7 @@ namespace common_types {
         uint32_t sampleRate;
         uint8_t channels;
         uint64_t noSamples;
-        std::vector<short> data;
+        std::vector<float> data;
         bool isNew = false;
     };
 };
