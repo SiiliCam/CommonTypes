@@ -19,4 +19,13 @@ namespace common_types {
         std::vector<float> data;
         bool isNew = false;
     };
+
+
+    struct Audio16 {
+        uint32_t sampleRate;
+        uint8_t channels;
+        uint64_t noSamples;
+        std::vector<int16_t> data;
+        bool isNew = false;
+    };
 };
