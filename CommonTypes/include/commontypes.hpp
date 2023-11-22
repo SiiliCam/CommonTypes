@@ -10,6 +10,7 @@ namespace common_types {
         int channels;
         std::vector<uint8_t> data;
         int stride = 0;
+        uint64_t timestamp = 0;
     };
 
     struct Audio {
@@ -18,6 +19,7 @@ namespace common_types {
         uint64_t noSamples;
         std::vector<float> data;
         bool isNew = false;
+        uint64_t timestamp=0;
     };
 
 
